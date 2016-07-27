@@ -1,8 +1,8 @@
 # Learning Data Binding
-在这里将会呈现的是我从`android`官网、实际项目的实践及其他人的实践所吸收的关于 Data Binding 的知识。 
+在这里将会呈现的是我从 [Android](https://developer.android.com/topic/libraries/data-binding/index.html) 官网、实际开发项目的实践及其他人的实践所学习的关于 Data Binding 的知识。 创建这个 repository 之时，我已经在O2O、B2C、股票投资等类型的上线项目或个人项目中使用了 Data Binding，并且在今后的商业项目中继续使用。
 
 ## 前言
-Android 的 Data Binding(数据绑定) 在 Google 的 2015 I/O 上推出，目的在于将逻辑代码和 UI 布局代码更好地绑定在一起，减少 glue code，例如消灭 `findViewById()`，自动刷新数据等。Data Binding 支持 API 7+。利用 Data Binding 可以实现 MVVM，在 2016 I/O 上 android 官方宣布支持双向绑定。 
+Android 的 Data Binding(数据绑定) 在 Google 的 2015 I/O 上推出，目的在于将逻辑代码和 UI 布局代码更好地绑定在一起，减少 glue code，例如消灭 `findViewById()`，自动刷新数据等。Data Binding 支持 API 7+。在 2016 I/O 上 android 官方宣布支持双向绑定，因此可以也利用 Data Binding 在 android 项目中实现 MVVM 架构。
 
 ####优点：
 1. 保证 xml 内的代码始终在 UI 线程执行，不必担心线程切换的问题。
