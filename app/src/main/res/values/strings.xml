@@ -1,3 +1,4 @@
 <resources>
   <string name="app_name">LearningDataBinding</string>
+  <string name="name">UserName:%s</string>
 </resources>
