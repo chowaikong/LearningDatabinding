@@ -31,14 +31,14 @@ Android 的 Data Binding(数据绑定) 在 Google 的 2015 I/O 上推出，目�
 
 ## 如何使用
 1. 在 Activity 中初始化：  
- ```
- @Override protected void onCreate(Bundle savedInstanceState) {
+ <pre>
+@Override protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     DataBindingUtil.setContentView(layoutId, this);
  }
- ```  
- 这就相当于 setContextView() ，这个方法返回的是相应的 xml 文件或动态生成的 java 文件，里面包含了所有 view 的实例，可供直接使用而不再需要 findViewById(), 这里说的 view 实例指的是在 xml 文件里面写了 id 的 view，不写 id 是不会拿到 view 实例的。  
-在 activity 中实例的方法还有：  
+ </pre>
+ 这就相当于 setContextView() ，这个方法返回的是相应的 xml 文件或动态生成的 java 文件，里面包含了所有 view 的实例，可供直接使用而不再需要 findViewById(), 这里说的 view 实例指的是在 xml 文件里面写了 id 的 view，不写 id 是不会拿到 view 实例的.  
+ 在 activity 中实例的方法还有:  
 ```
 @Override protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
